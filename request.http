@@ -1,0 +1,14 @@
+POST http://localhost:5000/api/user/register
+Content-Type: application/json
+
+{
+    "fullname": "Nghia",
+    "username": "nghia1",
+    "email": "ndnghiadn@gmail.com",
+    "password": "nghia123",
+    "gender": "male"
+}
+
+###
+GET http://localhost:5000/api/user/getUser
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNGRiMzhjMTk2YTI5NTVlZjY5MDMwYiIsImlhdCI6MTYzMzAyMzkyMSwiZXhwIjoxNjMzMTEwMzIxfQ.SoNARZQutdp9HmkPTTshiwVsJtkdtBakZEhiEOLuJcc
